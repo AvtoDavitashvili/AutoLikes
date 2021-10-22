@@ -1,0 +1,116 @@
+
+.react{
+    float:right;
+  margin-top:25%;
+  position: adaptive;
+  left: 50%;
+  
+}
+
+h1{
+    position: adaptive;
+    right: 50%;
+   color: rgb(0, 0, 0);
+}
+
+#paragrafi{
+  text-align: center;
+}
+
+#gsg{
+  position: adaptive;
+  bottom: 76%;
+  left: 50%;
+color:rgb(0, 0, 0);
+font-size: 17px; }
+
+a{position: adaptive;
+  bottom: 75%;
+  left: 50%;
+font-size: 25px;
+color: rgb(243, 0, 0); }
+
+.react { size: 50px;
+}
+
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    position: adaptive;
+    left: 50%;
+  }
+  
+  .wrapper{
+    position: absolute;
+    left:215px;
+    
+}
+  
+  .link_wrapper{
+    position: adaptive;
+    left: 50%;
+ }
+  
+  a{
+    display: block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgb(39, 38, 38);
+    text-align: center;
+    color: rgb(252, 252, 252);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid rgb(83, 82, 82);
+    transition: all .35s;
+  }
+  
+  .icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    position: adaptive;
+    left: 50%;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .35s;
+  }
+  
+  .icon svg{
+    width: 30px;
+    position: adaptive;
+    top: calc(50% - 15px);
+    left: 50%;
+
+    transform: rotate(-45deg);
+    fill: #00fc69fb;
+    transition: all .35s;
+  }
+  
+  a:hover{
+    position: adaptive;
+    width: 200px;
+    border: 3px solid #0df56e;
+    background: transparent;
+    color: #2ecc71;
+  }
+  
+  a:hover + .icon{
+    position: adaptive;
+    border: 3px solid #2ecc71;
+    right: -25%;
+  }
+
+#insta{
+  position: adaptive;
+  bottom: 10%;
+}
+
+#kaci{
+  text-align: center; 
+}
